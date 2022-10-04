@@ -28,7 +28,13 @@
     <div class="container">
       <div class="grid">
         <div class="img">
-          <img src="./images/image-product-desktop.jpg" alt="" />
+         <picture>
+            <source
+              media="(min-width: 500px)"
+              srcset="/images/image-product-desktop.jpg"
+            />
+            <img src="./images/image-product-mobile.jpg" alt="" />
+          </picture>
         </div>
         <div class="contents">
           <h6 class="cat">PERFUME</h6>
